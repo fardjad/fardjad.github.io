@@ -1,6 +1,8 @@
 <header class="site-header">
   <div class="wrapper">
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% comment %}
+    <!-- Hide site-nav for now -->
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -12,15 +14,13 @@
       <div class="trigger">
         <ul>
           <li><a href="{{ site.baseurl }}/#about">About</a></li>
-          {% comment %}
-          <!-- Hide Blog Posts link until we have some blog posts -->
           <li><a href="{{ site.baseurl }}/#blog">Blog Posts</a></li>
-          {% endcomment %}
           <li><a href="{{ site.baseurl }}/#talks-and-papers">Talks and Papers</a></li>
           <li><a href="{{ site.baseurl }}/#awards-and-honors">Awards and Honors</a></li>
           <li><a href="{{ site.baseurl }}/#highlighted-works">Highlighted Works</a></li>
         </ul>
       </div>
     </nav>
+    {% endcomment %}
   </div>
 </header>
