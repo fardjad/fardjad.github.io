@@ -7,7 +7,7 @@ into a static site whenever I push this repository to GitHub.
 ## License
 
 Content on this site is licensed under a
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 Everything else is licensed under the
 <a rel="license" href="http://opensource.org/licenses/MIT">MIT License</a>
