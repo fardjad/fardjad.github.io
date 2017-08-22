@@ -1,2 +1,7 @@
-User-agent: *
+User-agent: ia_archiver
 Disallow: /
+
+user-agent: *
+Allow: /$
+Disallow: /
+
