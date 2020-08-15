@@ -1,9 +1,7 @@
 # Site settings
 title: Fardjad Davari
 email: public@fardjad.com
-description: >
-  My name is Fardjad Davari. 
-  This is my personal website, where I post my writing and my works.
+description: My name is Fardjad Davari. This is my personal website!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.fardjad.com" # the base hostname & protocol for your site
 twitter_username: dfardjad
