@@ -1,7 +1,7 @@
 # Site settings
 title: Fardjad Davari
 email: public@fardjad.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   My name is Fardjad Davari. 
   This is my personal website, where I post my writing and my works.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -9,6 +9,7 @@ url: "https://www.fardjad.com" # the base hostname & protocol for your site
 twitter_username: dfardjad
 github_username: fardjad
 stackoverflow_username: 303270
+linkedin_username: fardjad
 
 # Build settings
 markdown: kramdown

@@ -1,45 +1,62 @@
 <footer class="site-footer">
-    <div class="wrapper">
-        <div class="footer-col-wrapper">
-            <div class="footer-col  footer-col-1">
-                <div class="vcard" itemscope itemtype="http://schema.org/Person">
-                    <ul class="contact-list">
-                        <li itemprop="name">Fardjad Davari</li>
-                        <li><a href="mailto:{{ site.email }}" itemprop="email">{{ site.email }}</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-col  footer-col-2">
-                <ul class="social-media-list">
-                    <li>
-                        <span class="social-media-name">GitHub</span>
-                        <a href="https://github.com/{{ site.github_username }}/">
-                            <span class="username">{{ site.github_username }}</span>
-                        </a>
-                    </li>
-                    <li>
-                        <span class="social-media-name">StackOverflow</span>
-                        <a href="https://stackoverflow.com/users/{{ site.stackoverflow_username }}">
-                            <span class="username">{{ site.stackoverflow_username }}</span>
-                        </a>
-                    </li>
-                    <li>
-                        <span class="social-media-name">Twitter</span>
-                        <a href="https://twitter.com/{{ site.twitter_username }}/">
-                            <span class="username">{{ site.twitter_username }}</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-col  footer-col-3">
-                {% comment %}
-                <!-- Hide RSS feed link until we have some blog posts -->
-                <p class="rss-subscribe">subscribe <a href="{{ site.baseurl }}/feed.xml">via RSS</a></p>
-                {% endcomment %}
-                Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-                <br/>
-                Copyright 2010-present Fardjad&nbsp;Davari.
-            </div>
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <div class="vcard" itemscope itemtype="http://schema.org/Person">
+          <ul class="contact-list">
+            <li itemprop="name">Fardjad Davari</li>
+            <li>
+              <a href="mailto:{{ site.email }}" itemprop="email">
+                {{ site.email }}
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          <li>
+            <span class="social-media-name">GitHub</span>
+            <a href="https://github.com/{{ site.github_username }}/">
+              <span class="username">{{ site.github_username }}</span>
+            </a>
+          </li>
+          <li>
+            <span class="social-media-name">StackOverflow</span>
+            <a
+              href="https://stackoverflow.com/users/{{ site.stackoverflow_username }}"
+            >
+              <span class="username">{{ site.stackoverflow_username }}</span>
+            </a>
+          </li>
+          <li>
+            <span class="social-media-name">Twitter</span>
+            <a href="https://twitter.com/{{ site.twitter_username }}/">
+              <span class="username">{{ site.twitter_username }}</span>
+            </a>
+          </li>
+          <li>
+            <span class="social-media-name">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/">
+              <span class="username">{{ site.linkedin_username }}</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-3">
+        {% comment %}
+        <!-- Hide RSS feed link until we have some blog posts -->
+        <p class="rss-subscribe">
+          subscribe <a href="{{ site.baseurl }}/feed.xml">via RSS</a>
+        </p>
+        {% endcomment %} Except where otherwise noted, content on this site is
+        licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+          Creative Commons Attribution 4.0 International License</a
+        >.
+        <br />
+        Copyright 2010-2020 Fardjad&nbsp;Davari.
+      </div>
     </div>
+  </div>
 </footer>
